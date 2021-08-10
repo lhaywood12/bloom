@@ -1,0 +1,162 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke:currentcolor;
+    fill: currentcolor;
+    padding:10px;
+}
+.icon-bubbles2 {
+    width: 1.125em;
+}
+
+.header a{
+    background-color: var(--sec);
+    border-radius:50%;
+}
+
+.icon-facebook{
+    color:var(--prim);
+    font-size:24px;
+}
+
+/*header*/
+.header{
+    /*border:3px solid black;*/
+    position:relative;
+    background:black;
+}
+
+.logo{
+    font-family: 'Cedarville Cursive', cursive;
+    /*border:3px solid purple;*/
+    position:absolute;
+    bottom:0;
+    color:white;
+}
+
+.social-list{
+    /*border:3px solid orange;*/
+    display:flex;
+    margin-left:85%;
+    justify-content:space-between;
+    list-style:none;
+}
+
+.header .icon{
+    padding:13px;
+    border-radius: 40px;
+    background:white;
+    color:black;
+}
+/*end header*/
+
+/*main*/
+.button{
+    text-transform: uppercase;
+    border-radius: 9px; 
+    padding:15px 18px;
+    background-color:black;
+    color:white;
+}
+.section1{
+    /*border:3px solid red;*/
+    background:rgb(240, 127, 145);
+    height:500px;
+    position:relative;
+}
+
+.block1{
+    /*border:3px solid orangered;*/
+    position:absolute;
+    left:0;
+    width:600px;
+    padding:5%;
+    font-size:19px;
+    color:white;
+}
+
+.block2{
+    /*border:3px solid olive;*/
+    position:relative;
+    right:-60%;
+    width:250px;
+    padding:10%;
+}
+
+.section2 .inner{
+    /*border:3px solid teal;*/
+    display: flex;
+    height:300px;
+}
+
+.section2 .block{
+    /*border:3px solid orchid;*/
+    font-size:17px;
+}
+
+.section2 .sub-header{
+    /*border:3px solid yellowgreen;*/
+    width:300px;
+    margin-top:-7%;
+    padding-left:17%;
+}
+
+.section2{
+    /*border:3px solid blue;*/
+    height:350px;
+    background:whitesmoke;
+}
+
+.section3{
+    /*border:3px solid green;*/
+    height:500px;
+    position:relative;
+}
+
+.products{
+    /*border:3px solid navy;*/
+    width:800px;
+    height:500px
+}
+
+
+.section3 .icon{
+    padding:100px 190px;
+    border-radius: 40px;
+    background: black;
+    color:white;
+}
+
+.aside{
+    /*border:2px solid rgb(3, 63, 63);*/
+    width:550px;
+    height:400px;
+    position:absolute;
+    right:0;
+    margin-top:-30%;
+    font-size:18px;
+}
+/*end main*/
+
+/*footer*/
+.footer{
+    /*border:3px solid brown;*/
+    background:black;
+    position:relative
+}
+
+.colophon{
+    /*border:3px solid midnightblue;*/
+    color:white;
+    position:absolute;
+    bottom:0;
+}
+
+.footer .icon{
+    background: white;
+    color:black;
+    border-radius: 40px;
+}
+/*end footer*/
